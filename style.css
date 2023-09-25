@@ -1,0 +1,17 @@
+/* Selector{
+    Property:value;
+} */
+
+h2 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+/* the above same style shows that it applies the last p style and that's why it's called cascading styles */
