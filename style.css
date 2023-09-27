@@ -2,50 +2,34 @@
     Property:value;
 } */
 
-* {
+/* * {
   text-align: right;
-}
+} */
 
 /* element */
 body {
   background-image: url(https://images.unsplash.com/photo-1695189353156-ed6d1c612bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80);
-  background-size: cover;
+  /* background-size: cover; */
 }
 
-/* element,element */
-/* h2,
 p {
-  text-align: center;
-  color: #aa8439;
-  cursor: pointer;
-  border: 5px solid rgb(212, 177, 106, 0.5);
-} */
-
-/* h2 p {
   text-align: left;
   color: #aa8439;
   cursor: pointer;
   border: 5px solid rgb(212, 177, 106, 0.5);
-} */
+}
 
-/* element > element  here the p tag becomes parent of h2*/
-/* h2 > p {
-    text-align: left;
-    color: #aa8439;
-    cursor: pointer;
-    border: 5px solid rgb(212, 177, 106, 0.5);
-  } */
+img {
+  float: left;
+}
 
-/* element + element means select any here p tag which comes exactly after h2 tag*/
-h2 + p:hover {
-    text-align: left;
-    color: #aa8439;
-    cursor: pointer;
-    border: 5px solid rgb(212, 177, 106, 0.5);
-  }
+footer {
+  clear: both;
+  text-align: center;
+}
 
 p {
-  color: blue !important;
+  color: blue;
 }
 
 p {
